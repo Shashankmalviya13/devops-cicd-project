@@ -32,7 +32,9 @@ class DevOpsHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = HTTPServer(("127.0.0.1", 8000), DevOpsHandler)
+    
+    server = HTTPServer(("0.0.0.0", 8000), DevOpsHandler)
+    
     print("Server running at http://localhost:8000")
 
     try:
