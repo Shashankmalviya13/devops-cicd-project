@@ -1,0 +1,12 @@
+@'
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+aiops-platform/data/incidents.json
+'@ | Set-Content -Encoding utf8 .gitignore
